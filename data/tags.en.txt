@@ -1,0 +1,204 @@
+[peacock
+[peacock term
+{peacock
+avoid weasel words
+bias
+bias warning
+biased
+biased source
+biases
+caselist undue influence
+cleanup-peacock
+Cleanup-resume
+Close connection
+COI
+Colloquial
+colloquial speech
+désaccord de neutralité
+Editorial
+editorialising
+editorialising?
+Editorializing
+editorializing?
+Essay-like
+FixPOV
+GenderPOV
+inline undue
+inline-weasel
+like  resume
+like a resume
+Like resume
+like_resume
+Like-resume
+likearesume
+Likeresume
+LikeResume
+long npov
+Lopsided
+neutraility
+neutrailty
+Neutral
+neutral point of view
+neutral pov?
+neutral-pov
+neutral?
+neutralit/y
+neutralität
+Neutrality
+neutrality disputed
+neutrality is disputed
+neutrality section
+neutrality-inline
+neutrality-section
+neutrality/weasel words
+neutrallity
+neutralpov
+neutralsection
+no neutral
+non neutral
+non-neutral
+noneutral
+noneutrality
+nonneutral
+not neutral
+Npov
+NPOV
+npov check
+NPOV language
+npov section
+npov statement
+npov-inline
+npov-sect
+npov-section
+npov-statement
+npov-title
+npov#undue weight
+npovs
+paid contributions
+Peacock
+peacock inline
+peacock language
+peacock section
+peacock statement
+Peacock term
+peacock term inline
+peacock term?
+peacock terms
+peacock word
+peacock words
+peacock_inline
+peacock_term
+peacock-inline
+peacock-section
+peacock-term
+peacock-word
+peacocking
+peacockterm
+peacockterms
+peacockwords
+peacocok
+peacoock-inline
+peacook
+Point Of View
+Pov
+PoV
+POV Article
+pov assertion
+POV check
+POV check inline
+pov inline
+POV lead
+POV map
+POV section
+POV statement
+pov tag
+POV title
+pov_check
+pov-assertion
+pov-body
+pov-check
+pov-check inline
+pov-check-section
+pov-cruft
+pov-intro
+pov-lead
+pov-name
+pov-neutrality
+pov-sect
+pov-section
+POV-statement
+pov-statemtent
+pov-title
+pov?
+povassertion
+povsection
+puff
+Puffery
+puffery inline
+resume
+resume like
+resume-like
+resumelike
+sect-pov
+section-pov
+section-undue
+sectnpov
+sectpov
+Systemic bias
+titlenpov
+too colloquial and subjective
+Undisclosed paid
+undue
+undue emphasis
+undue inline
+undue precision
+undue section
+Undue weight
+undue weight inline
+undue weight section
+undue_inline
+undue_section
+undue_weight
+undue-inline
+undue-line
+undue-section
+undue-weight
+undue-weight-inline
+undue-weight-statement
+undueweight
+usgovtpov
+Weasel
+weasel article
+Weasel inline
+weasel line
+weasel phrasing
+weasel section
+weasel tag
+weasel word
+weasel word inline
+Weasel words
+weasel words - source needed
+weasel words inline
+weasel words?
+weasel_inline
+weasel_section
+weasel_word
+weasel_words
+weasel-in line
+weasel-inilne
+weasel-inlin
+weasel-inline
+weasel-inlne
+weasel-innline
+weasel-line
+weasel-section
+weasel-statement
+weasel-word inline
+Weasel-words
+weasel?
+weasel=inline
+weaselewords
+weaselly
+weaselstatement
+Weaselwords
+weasely
