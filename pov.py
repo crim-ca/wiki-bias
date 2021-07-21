@@ -24,8 +24,8 @@ class POVProcessor(object):
         self.match = lambda x: re.search(self.regex, str(x.find('text').text))
         self.all_tags = re.compile(r"{{([^|}]+)}}")
 
-        self.output = open(output_file, 'w', encoding=enc)
-        self.output_tags = open(output_file + '.alltags.txt', 'w', encoding=enc)
+        self.output = open(output_file, 'a', encoding=enc)
+        self.output_tags = open(output_file + '.alltags.txt', 'a', encoding=enc)
         self.enc = enc
         self.logit = False
         if logfile:

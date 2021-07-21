@@ -16,7 +16,7 @@ def download_file(url):
     with open(local_filename, 'wb') as f:
         total_length = int(response.headers.get('content-length'))
         for chunk in progress.bar(response.iter_content(chunk_size=512),
-                                  expected_size=(total_length/512) + 1):
+                                  expected_size=(total_length / 512) + 1):
             if chunk:
                 f.write(chunk)
     return local_filename
@@ -29,12 +29,15 @@ def main(argv):
                         help='Text file containing a list of paths to bz2 files to process')
     parser.add_argument('-o', '--outputfile', action="store", dest='outputfile',
                         required=True,
-                        help='Suffix to add to input file in order to output results')
+                        help='File path to output results')
     parser.add_argument('-l', '--lang', action="store", dest='lang',
                         required=True, type=check_lang,
                         help='Two-letter language tag to fetch')
     parser.add_argument('-r', '--remove', action="store_true",
                         help='Include to activate file deletion after processing')
+    parser.add_argument('-s', '--separate_output', action="store_true",
+                        help='Use the outputfile name as suffix to input file in order to generate separate '
+                             'output files.')
     parser.add_argument('-v', '--verbose', action="store_true",
                         help='Include to log each article title')
     args = parser.parse_args()
@@ -55,6 +58,7 @@ def main(argv):
 
         start = time.time()
         infile = infile.rstrip()
+        output_file = args.outputfile
 
         # Download it if needed
         fname = os.path.basename(infile)
@@ -66,12 +70,17 @@ def main(argv):
             print("File " + fname + " already downloaded!")
         print("Filtering...")
 
+        if args.separate_output:
+            output_file = fname + "." + output_file
+            # Check if file already exist, delete it if so
+            if os.path.exists(output_file):
+                os.remove(output_file)
+
         if log_file:
-            pov = POVProcessor("data/tags." + args.lang + ".txt", enc,
-                               args.outputfile, fname + ".log")
+            pov = POVProcessor("data/tags." + args.lang + ".txt", enc, output_file, fname + ".log")
         else:
-            pov = POVProcessor("data/tags." + args.lang + ".txt", enc,
-                               args.outputfile, None)
+            pov = POVProcessor("data/tags." + args.lang + ".txt", enc, output_file, None)
+
         cptPage = 0
         zip = bz2.BZ2File(fname)
         store = False
